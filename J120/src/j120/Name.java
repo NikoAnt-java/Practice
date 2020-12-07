@@ -35,7 +35,7 @@ public class Name {
         }
         System.out.println("\n");
 
-        String chars = "aaaabbbbbbccccc";
+        String chars = "12vhj3b2h33aaaa43vvvjj4h";//ввод только цифр и латинских букв
         char charset[] = StringService.getCharStat(chars);
         System.out.println(chars);
         for (char c : charset) {
@@ -50,7 +50,7 @@ public class Name {
         // вывод на экран
         for (int i = 0; i < 255; i++) {
             if (arr[i] > 0) {
-                System.out.println((char) i + " встречается " + arr[i] + " раз");
+                System.out.println((char) i + " найдено " + arr[i] + " раз");
             }
         }
     }
